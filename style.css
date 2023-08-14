@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Inter";
+    src: url(../ჩელენჯი/Inter-VariableFont_slnt\,wght.ttf);
+}
+@font-face {
+    font-family: "Jacques Francois";
+    src: url(../ჩელენჯი/JacquesFrancois-Regular.ttf);
+}
+.navigation{
+    color: #000;
+        font-family: "Inter";
+        font-size: 128px;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+}
+p{
+    color: #000;
+    font-family: Jacques Francois;
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.box{
+        position:absolute;
+        left:340px;
+        color: #000;
+        font-family: "Jacques Francois";
+        font-size: 128px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}
+img{
+    display: flex;
+    justify-content:center;
+    background-image:url(cover.png);
+    border-image-repeat: no-repeat;
+    background-size:cover;
+    margin-left:360px;
+    margin-top:63px;
+}
